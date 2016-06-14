@@ -1,0 +1,9 @@
+--TSA200_AUD_RPT
+
+
+SELECT TOP 1000 *
+FROM [ARRA_audit].[dbo].[TSA200_AUD_RPT]
+WHERE psn_int_id IS NOT NULL;
+
+
+--Need to find another table??
