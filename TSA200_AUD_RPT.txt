@@ -2,9 +2,19 @@
 --making changes to git
 
 
-SELECT TOP 1000 *
-FROM [ARRA_audit].[dbo].[TSA200_AUD_RPT]
-WHERE psn_int_id IS NOT NULL;
+SELECT TOP 1000 [tsa200_int_id]
+      ,[Date Accessed]
+      ,[Medical Rec Number]
+      ,[Patient Name]
+      ,[User Login Id]
+      ,[User Name]
+      ,[Workstation]
+      ,[Application/Program]
+      ,[Data]
+      ,[Action]
+      ,[entry_id]
+      ,[vst_ext_id]
+  FROM [ARRA_audit].[dbo].[TSA200_AUD_RPT]
 
 
 --Need to find another table??
